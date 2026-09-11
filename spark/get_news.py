@@ -11,7 +11,7 @@ while(True):
     list_key_search = ["Google","Apple","Bitcoin","Meta","IBM","Amazon","Cryptocurrency"]
     size = len(list_key_search) #il prof di ingegneria del software approva questa usanza 
 
-    newsapi = NewsApiClient(api_key='cba1ed0592e44116ae5a6eea16e0d42b')
+    newsapi = NewsApiClient(api_key='')
 
 # q è Keywords o frase da ricercare
 # qui l'unico problema è che puoi raccogliere a scrocco solo news ultimo mese. nescia i soddi e avrai anche lo storico
